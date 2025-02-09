@@ -24,6 +24,14 @@ body{
     margin: 0 auto;
 }
 
+.headerfixed{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    /* why is the navbar not sticky? */
+}
+
 .logo{
    width: 60px;
    height: auto;
