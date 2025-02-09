@@ -5,6 +5,12 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Permanent Marker';
+    src: url(font/PermanentMarker-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 :root{
     --primary-color: #6caa46;
     --secondary-color: #8dd163;
@@ -126,6 +132,10 @@ li{
     /* border: 1px solid red; */
 }
 
+.specialword{
+    font-family: 'Permanent Marker';
+}
+
 button{
     background-color: var(--flash-color);
     padding-left: 15px;
@@ -231,4 +241,15 @@ button{
 footer{
     background-color: lightgrey;
     padding: 20px;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+footer a:hover{
+    border-bottom: 2px solid var(--primary-color)
 }
